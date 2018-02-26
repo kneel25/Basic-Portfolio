@@ -1,0 +1,154 @@
+h1{
+    color: whitesmoke;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    padding: 20px;
+    background-color: teal;
+    float: left;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+header{
+    padding: 20px;
+    color:whitesmoke;
+    height: 60px;
+    background-color:#cccccc;
+    text-align: left;
+    font-size: large;
+}
+
+.links{
+    float: right;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+a:visited {
+    color: teal;
+}
+a:hover {
+    color:deeppink;
+}
+a:active {
+    color: navy;
+}
+
+
+textbox{
+    float: left;
+}
+
+.portbox{
+    color: #777777;
+    /* float: left; */
+    margin-left: 170px;
+    width: 50%;
+    height: 1200px;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: oldlace; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.aboutme{
+    color: #777777;
+    /* float: left; */
+    margin-left: 170px;
+    width: 50%;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: oldlace; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* body{
+background-color:#cccccc;
+} */
+
+.bigbox {
+    width:100%;
+    border: 5px dashed grey;
+    align-items: center;
+    /* background-color: oldlace; */
+    overflow: hidden;
+}
+
+img{
+    width:270px;
+    height:360px;
+    margin:15px;
+    float: left;
+    border: solid grey;
+}
+
+  #sidebar{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: oldlace;
+    float: right;
+    margin: 170px;
+    padding: 20px;
+    border: 5px solid grey;
+    position: fixed;
+    top: 150px;
+    right: 0;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #666666;
+    text-align: center;
+    font-size: smaller;
+    /* border: teal; */
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.contactbox{
+    margin-left: 170px;
+    width: 50%;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+     overflow: hidden;
+    background-color: oldlace; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.wrapper {
+    width: 400px;
+    padding: 30px;
+    background: oldlace;
+    margin: 0 auto
+}
+.wrapper h2 {
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: gray;
+}
+.wrapper input[type=text],
+.wrapper input[type=email],
+
+textarea {
+    width: 390px; 
+    margin-bottom: 15px;
+    padding: 5px;
+
+
+}
+.wrapper a{
+    text-decoration: none;
+    color: whitesmoke;
+    background: teal;
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 15px;
+}
