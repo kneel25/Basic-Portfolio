@@ -17,13 +17,21 @@ header{
     text-align: left;
     font-size: large;
 }
-
+/* internal links to nav pages */
 .links{
     float: right;
     font-family: 'Gloria Hallelujah', cursive;
+
+}
+/* little icon link images */
+.link{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
 }
 
-
+/* internal links to nav pages */
 a:visited {
     color: teal;
 }
@@ -39,20 +47,50 @@ textbox{
     float: left;
 }
 
+h2{
+    background:whitesmoke;
+    padding: 20px;
+    float: right;
+    font-size: 25px;
+}
+
+#word1{
+    position: absolute;
+    left: 0px;
+}
+#word2{
+    position: absolute;
+    left: 0px;
+    top: 327px;
+}
+#word3{
+    position: absolute;
+    left: 0px;
+}
+
+h3{
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* portfolio box */
 .portbox{
     color: #777777;
     /* float: left; */
     margin-left: 170px;
     width: 50%;
-    height: 1200px;
+    height: 1000px;
     margin-right: 180px;
     border: 4px solid gray;
     padding: 20px;
     /* overflow: hidden; */
     background-color: oldlace; 
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+/* aboutme box */
 .aboutme{
     color: #777777;
     /* float: left; */
@@ -63,6 +101,7 @@ textbox{
     padding: 20px;
     /* overflow: hidden; */
     background-color: oldlace; 
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -70,6 +109,7 @@ textbox{
 background-color:#cccccc;
 } */
 
+/* grey dotted box on all pages */
 .bigbox {
     width:100%;
     border: 5px dashed grey;
@@ -77,20 +117,20 @@ background-color:#cccccc;
     /* background-color: oldlace; */
     overflow: hidden;
 }
-
-img{
+/* dog photo */
+#image1{
     width:270px;
     height:360px;
     margin:15px;
     float: left;
     border: solid grey;
 }
-
+/* small icon side box */
   #sidebar{ 
     font-family: 'Gloria Hallelujah', cursive;
     background-color: oldlace;
     float: right;
-    margin: 170px;
+    margin: 160px;
     padding: 20px;
     border: 5px solid grey;
     position: fixed;
@@ -109,8 +149,6 @@ footer{
     bottom: 0;
 }
 
-
-
 .contactbox{
     margin-left: 170px;
     width: 50%;
@@ -118,9 +156,11 @@ footer{
     border: 4px solid gray;
     padding: 20px;
      overflow: hidden;
+    position: relative;
     background-color: oldlace; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 .wrapper {
     width: 400px;
     padding: 30px;
